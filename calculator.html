@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="main">
+    <div class="calculateform">
+        <div class="screen">
+            <input type="text"  name="screen">
+        </div>
+     <div class="btn">
+        <input type="button" id="clear" namw="clear" value="clear"></input>
+        <input type="button"  id="del" name="del" value="del"></button>
+     </div>  
+
+        <div class="btn">
+            <input type="button" name="num1" value="1" id="1" onclick="valuebutton(this)"/>
+            <input type="button"  name="num2" value="2" id="2" onclick="valuebutton(this)"/>
+            <input type="button"   name="num3" value="3"id="3"onclick="valuebutton(this)"/>
+            <input type="button" name="plus" value="+" id="add"onclick="valuebutton(this)"/>
+        </div>
+
+        <div class="btn">
+            <input type="button"   name="num4" value="4" id="4"onclick="valuebutton(this)"/>
+            <input type="button"   name="num5" value="5" id="5"onclick="valuebutton(this)"/>
+            <input type="button"  name="num6" value="6" id="6"onclick="valuebutton(this)"/>
+            <input type="button"   name="minus" value="-" id="-"onclick="valuebutton(this)"/>
+        </div>
+
+               <div class="btn">
+                <input type="button"   name="num7" value="7" id="7"onclick="valuebutton(this)"/>
+                <input type="button"   name="num8" value="8"id="8"onclick="valuebutton(this)"/>
+                <input type="button"   name="num9" value="9" id="9"onclick="valuebutton(this)"/>
+                <input type="button"   name="multiply" value="*" id="*"onclick="valuebutton(this)"/>
+               </div>
+              
+         
+           <div class="btn">
+            <input type="button"  name="num0" value="0" id="0"onclick="valuebutton(this)"/>
+            <input type="button"   name="equal"value="=" id="="onclick="valuebutton(this)"/>
+          </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
